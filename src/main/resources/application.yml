@@ -1,0 +1,11 @@
+name: leon
+
+person:
+  name: zhangsan${random.uuid}
+  age: ${random.int}
+  addr: hangzhou${person.name}
+
+
+spring:
+  profiles:
+    active: dev
